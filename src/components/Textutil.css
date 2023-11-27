@@ -1,0 +1,59 @@
+.parent {
+    height: 100%;
+    background: linear-gradient(45deg, #de1919, #55e0d9);
+    margin-top: -22px;
+    height: 100%;
+    padding-bottom: 70px;
+}
+textarea {
+    font-size: 25px;
+    border-radius: 10px;
+}
+button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 113px;
+    width: 153px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnprimary {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.text-summary {
+    text-align: left;
+    margin-left: 113px;
+}
+p.words {
+    word-spacing: 7px;
+}
+
+@media (max-width:767px) {
+    textarea {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .btnprimary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button.btn {
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        width: 100px;
+    }
+    .text-summary {
+        text-align: center;
+        margin-left: 0;
+    }
+}
